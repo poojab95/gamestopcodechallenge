@@ -16,6 +16,8 @@ import ProductDetail from './src/screens/ProductDetail';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import DrawerNavigation from './src/navigation/DrawerNavigation';
+import { Provider } from 'react-redux';
+import { store } from './src/redux/store';
 
  // Your navigators and screens
  const Stack = createStackNavigator();
@@ -30,7 +32,9 @@ import DrawerNavigation from './src/navigation/DrawerNavigation';
 
 const App = () => {
   return (
+    <Provider store={store}>
     <RootContent />
+    </Provider>
   );
 }
 
