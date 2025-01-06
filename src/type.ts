@@ -22,6 +22,7 @@ export interface ProductsProps {
     title: string;
     _id: string;
     type: string;
+    selectedVariation: string;
 }
 
 export interface Item {

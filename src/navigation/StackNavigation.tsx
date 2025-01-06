@@ -12,8 +12,8 @@ const StackNavigation = () => {
   return (
     <RootStack.Navigator initialRouteName="Home">
         <RootStack.Screen name="Home" component={Home} options={{headerShown: false}} />
-        <RootStack.Screen name="ProductListing" component={ProductListing}  />
-        <RootStack.Screen name="ProductDetail" component={ProductDetail} />
+        <RootStack.Screen name="ProductListing" component={ProductListing} options={{headerShown: false}} />
+        <RootStack.Screen name="ProductDetail" component={ProductDetail} options={{headerShown: false}} />
         <RootStack.Screen name="Cart" component={Cart} />
         <RootStack.Screen name="Checkout" component={Checkout} />
   </RootStack.Navigator>

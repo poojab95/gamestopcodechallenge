@@ -3,9 +3,11 @@ import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {Bars4Icon, ShoppingCartIcon} from 'react-native-heroicons/outline';
 import { useNavigation } from '@react-navigation/native';
+import { useSelector } from 'react-redux';
 
 const Header = () => {
     const navigation:any = useNavigation();
+    const {productData} = useSelector((state: any) => state.products);
     return (
         <SafeAreaView>
             <View style={styles.container}>
@@ -15,7 +17,7 @@ const Header = () => {
                 <Pressable style={styles.cartIcon} onPress={() => navigation.navigate('Cart')}>
                     <ShoppingCartIcon size={22}/>
                     <View style={styles.cartCount}> 
-                        <Text style={styles.cartText}>0</Text>
+                        <Text style={styles.cartText}>{productData?.length > 0 ? productData.length : 0}</Text>
                     </View>
                 </Pressable>
             </View>
