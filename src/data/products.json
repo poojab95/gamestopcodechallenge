@@ -1,0 +1,114 @@
+[
+    {
+      "_id": "1",
+      "name": "Call of Duty: Modern Warfare II",
+      "image": "https://media.gettyimages.com/id/2180336187/photo/paris-games-week-2024-press-day.jpg?s=1024x1024&w=gi&k=20&c=FeKLHJyHkQlt40QYe8EHTaTBlrf2j1iRir014D2n2YM=",
+      "type": "video game",
+      "variations": ["Digital", "New", "Pre-Owned"],
+      "price": 59.99,
+      "quantity": 1,
+      "details": {
+        "description": "The next chapter in the Modern Warfare franchise with intense action and a gripping storyline.",
+        "platforms": ["PS5", "Xbox Series X", "PC"],
+        "releaseDate": "2022-10-28"
+      }
+    },
+    {
+      "_id": "2",
+      "name": "Nintendo Switch Console",
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._AC_SL1500_.jpg",
+      "type": "console",
+      "variations": ["New", "Pre-Owned", "Refurbished"],
+      "price": 299.99,
+      "quantity": 1,
+      "details": {
+        "description": "A hybrid console that lets you play games at home or on the go.",
+        "color": "Neon Red/Neon Blue",
+        "includes": ["Console", "Dock", "Joy-Con Controllers", "HDMI Cable"]
+      }
+    },
+    {
+      "_id": "3",
+      "name": "GameStop Exclusive T-Shirt",
+      "image": "https://gear.xbox.com/cdn/shop/files/haloinf-main-100003-BACK-MF_1800x1800.png?v=1701108909",
+      "type": "clothing",
+      "variations": ["Small", "Medium", "Large"],
+      "price": 19.99,
+      "quantity": 1,
+      "details": {
+        "description": "Comfortable and stylish GameStop-branded T-shirt for gaming enthusiasts.",
+        "material": "100% Cotton",
+        "color": "Black"
+      }
+    },
+    {
+      "_id": "4",
+      "name": "Elden Ring",
+      "image": "https://media.gettyimages.com/id/2150983123/photo/girl-looking-at-gamepad-in-red-circle.jpg?s=1024x1024&w=gi&k=20&c=wEo1ReZMMeefbURG3bxoEtXkbgEMD7l3ZDn0McoAqjA=",
+      "type": "video game",
+      "variations": ["Digital", "New", "Pre-Owned"],
+      "price": 59.99,
+      "details": {
+        "description": "A sprawling action RPG in a dark fantasy world created by George R.R. Martin and FromSoftware.",
+        "platforms": ["PS5", "Xbox Series X", "PC"],
+        "releaseDate": "2022-02-25"
+      }
+    },
+    {
+      "_id": "5",
+      "name": "PlayStation 5 Console",
+      "image": "https://media.gettyimages.com/id/2190741661/photo/playstation-5.jpg?s=1024x1024&w=gi&k=20&c=Fd3CPaQIZloclStLDvTEn4MmzjBJrfujQXDfVlFxsYA=",
+      "type": "console",
+      "variations": ["New", "Pre-Owned", "Refurbished"],
+      "price":499.99,
+      "quantity": 1,
+      "details": {
+        "description": "The latest PlayStation console with ultra-high-speed SSD and immersive 3D audio.",
+        "color": "White",
+        "includes": ["Console", "DualSense Controller", "HDMI Cable"]
+      }
+    },
+    {
+      "_id": "6",
+      "name": "Halo Infinite Hoodie",
+      "image": "https://gear.xbox.com/cdn/shop/files/haloinf-main-100003-BACK-MF_1800x1800.png?v=1701108909",
+      "type": "clothing",
+      "variations": ["Small", "Medium", "Large"],
+      "price": "49.99",
+      "quantity": 1,
+      "details": {
+        "description": "Stay warm while showing off your love for Halo with this premium hoodie.",
+        "material": "50% Cotton, 50% Polyester",
+        "color": "Dark Green"
+      }
+    },
+    {
+      "_id": "7",
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "image": "https://media.gettyimages.com/id/1231509564/photo/link-figurine-from-legend-of-zelda-with-shop-staff-inside.jpg?s=1024x1024&w=gi&k=20&c=ikdw9wNiroWibOMHiyPln963ifCMAxyyFL1b8veSTec=",
+      "type": "video game",
+      "variations": ["Digital", "New", "Pre-Owned"],
+      "price": 59.99,
+      "quantity": 1,
+      "details": {
+        "description": "An epic adventure in the vast world of Hyrule with new mechanics and challenges.",
+        "platforms": ["Nintendo Switch"],
+        "releaseDate": "2023-05-12"
+      }
+    },
+    {
+      "_id": "8",
+      "name": "Xbox Series X Console",
+      "image": "https://media.gettyimages.com/id/631586132/photo/japan-games-nintendo-lifestyle.jpg?s=1024x1024&w=gi&k=20&c=MMq3WSahqRD5EmfGUW8FrQHM3uBtE_yFa9UsSvcjk5o=",
+      "type": "console",
+      "variations": ["New", "Pre-Owned", "Refurbished"],
+      "price": 499.99,
+      "quantity": 1,
+      "details": {
+        "description": "The fastest, most powerful Xbox ever, delivering 4K gaming at up to 120 FPS.",
+        "color": "Black",
+        "includes": ["Console", "Wireless Controller", "Ultra High-Speed HDMI Cable"]
+      }
+    }
+  ]
+  
